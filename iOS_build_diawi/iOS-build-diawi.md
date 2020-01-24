@@ -3,7 +3,7 @@
 ![N|Solid](https://www.geckoboard.com/assets/jenkins.png) ![N|Solid](https://images.prismic.io/ionicframeworkcom/5e0c47b5b609bf05937ff94df5cde2b942332727_diawi.png?auto=compress,format)
 
 ### Summary
-The purpose of this tutorial is to show how to setup continuous delivery using Jenkins and Diawi to accelerate iOS development. Once your setup is successful, you will be able to:
+The purpose of this tutorial is to show how to setup continuous delivery using Jenkins and Diawi to accelerate iOS development and also as a record keeping for myself in case I need to refer back. Once your setup is successful, you will be able to:
   - Automate or schedule iOS build
   - Automate upload process to diawi for tester
   - Receive email notification on build with logs attached
@@ -145,6 +145,10 @@ Thanks
 - Select "Compress and attach build log" for the option Attach Build Log
 - Now your settings should look as below
 ![](https://i.ibb.co/tK8fsy4/Screenshot-2020-01-23-at-2-57-27-PM.png)
+- That's all to create and configure your job item. Click save.
+![](https://i.ibb.co/kGypcH3/Screenshot-2020-01-24-at-10-30-37-AM.png)
+##### Click on Build Now and enjoy your coffee while waiting for Jenkins to send you email after build with the diawi link.
+
 
 ### Todos
  - Add in steps and screenshots for Git repo
